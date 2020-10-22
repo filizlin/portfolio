@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment 1</title>
+  </head>
+
+  <body>
+    <hgroup>
+      <h1 style=color:#1542a4>  Week 1    </h1>
+      <time datetime="2020-10-08">2020 10/8 to 10/14</time>
+      <p>Yuting Lin, UW HTML 110B 2020 Fall</p>
+      <section>
+        <nav>
+  <a href="#Pre-classpreparationlink">Pre-class preparation</a> |
+  <a href="#ZoomSessionlink">Zoom Session</a> |
+  <a href="#Assignmentlink">Assignment</a> |
+  <a href="#Goalslink">Goals</a>
+</nav>
+<header>
+    <h1><strong>
+<a name= "Pre-classpreparationlink">
+      Pre-class preparation <a/></strong></h1>
+</header>
+        <h2>soft
+          ware checklist</h2>
+        <ol>
+          <li>try to get terminal to work on mac</li>
+          <li>figure out if git is alreayd on the computer</li>
+          <li>install git using the website (this took a while)</li>
+          <li>get a github account and share it in the discussion, still don't know what name and privacy is set</li>
+          <li>get atom installed in the computer</li>
+          <li>get another browser to install on mac (need at least three)</li>
+        </ol>
+        <h2>reading</h2>
+        <ul>
+          <li>the HTML introduction</li>
+          <li>how a website/webpage/web server works</li>
+          <li>other optional readings</li>
+        </ul>
+        <h2>post on discussion</h2>
+        <ol>
+          <li>an introduction to myself</li>
+          <li>wasn't sure want to post on codetalk 00 but just added the github as other students did</li>
+        </ol>
+      </section>
+      <section>
+        <header>
+<a name= "ZoomSessionlink">
+        <h1><strong>Zoom Session</strong></h1></a>
+          </header>
+        <time>10/9 starting at 6pm</time>
+
+        <h2>topics</h2>
+        <h3>terminal</h3>
+        <p>the cd and pwd commands, mkdir will make a direactory. Need to figure out how the tab works for autofill because it is not doing it</p>
+        <h3>git commends</h3>
+        <p>git commends are to be typed into the terminal</p>
+        <details open>
+          <summary>different git commends and their use</summary>
+          <ul>
+            <li>git init - making git start tracking changes</li>
+            <li>git status - look at the status of the git in that branch</li>
+            <li>git add - need to do this before starting to track, basically adding this to the tracking system</li>
+            <li>git commit -m "new file" - officially commiting the file (after adding it to the tracking system) and need to add a note that indicates what changes were made</li>
+            <li>git remote -v - this will connect locally created files (that was added and commit) to the only github repository</li>
+            <li>git push - this is pushing (uploading) what was committed locally to the github</li>
+          </ul>
+
+        </details>
+            <h3>lecture portion</h3>
+            <p>the history of HTML and the basic grammar of html</p>
+            <h3>other notes</h3>
+            <p>other students says there are atom packages to install. Tried it and was kinda cool. Need to try adding zsh to the terminal to make it look pretty</p>
+
+
+
+      </section>
+      <section>
+<header>
+  <a name= "Assignmentlink">
+    <h1><strong>Assignment</strong></h1></a>
+</header>
+
+        <figure>
+      <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/12/HTML5-Semantic-Elements.jpg" alt="Semantic element layout" />
+      <figcaption>this is a sample layout using semantic tags to structure the page.  The picture is obtained from EDUCBA, HTML5 Semantic Elements</figcaption>
+    </figure>
+        <main>
+
+
+          <ol>
+            <li>read the articles</li>
+            <li>write a paragraph about semantic elements</li>
+
+              <header>
+                HTML semantic elements and its significance
+              </header>
+                <article class="">
+              <mark>Semantic elements are “tags” in the HTML code that have meaningful names to the browser and the developer. The semantic tags in HTML5 can help increase the accessibility of the webpage to the assistive technologies and help the
+                computers
+                better interpret the content. It also helps internationalize the HTML5 tags for the non-English speakers and other programmers when they try to look at the structure of the webpage created. The semantic tags allow the HTML coding
+                information to be shared across different applications and programmers.</mark>
+
+            </article>
+            <li>creat new repo</li>
+            <p>did this in the git hub, git remote add origin with URL for tracking, then git renote -v to access version</p>
+            <li>create index.html in repo</li>
+            <p>cd to a folder, and then touch to add .html. git init new folder and git add git commit</p>
+
+            <li>use at least 15 semantic elements in the HTML code</li>
+            <details open>
+              <summary>the elements used in this page</summary>
+
+              <ol>
+
+                <li><code>header</code> - at the beginning of the section <small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>body</code> - is set by default to indicate the body of the text </li>
+                <li><code>title</code> - name of the tab</li>
+                <li><code>hgroup</code> - suppose to be grouping the heading (not sure what it does, didn't really change the layout)</li>
+                <li><code>h1</code> - first layer heading(title)</li>
+                <li><code>time</code> - the time that helps computer tracks (date of this assignment) <small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>h2</code> - second layer heading (title again, hope this counts too)</li>
+                <li><code>ol</code> - ordered list (used this multiple times) <small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>li</code> - list item (associated with ol and ul...does this count as 1?)</li>
+                <li><code>ul</code> - unordered list (used this multiple times)</li>
+                <li><code>section</code> - indicate different sections (added one almost everything with h1 under)<small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>p</code> - for a random paragrah</li>
+                <li><code>details</code> - adding a detail droupdown <small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>summary</code> - the title of the detail dropdown menu <small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>code</code> - for computer codes, it changes the font of the text <small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>Note</code> - this is for notes in the code, not sure if this counts</li>
+                <li><code>h3</code> - third layer heading</li>
+                <li><code>footer</code> - for author info and copyright info <small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>nav</code> - for the navigation bar on top <small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>article</code> - independent content from the text (for semantic element summary) <small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>main</code> - specifying the main content of this page (in this case, the assignemtn section) <small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>mark</code> - highlighting the text (summary of the semantic tags) <small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>small</code> - to make the text smaller in footer <small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>figure</code> - adding a figure to the content <small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>figcaption</code> - the figure caption <small style=color:#e8911d>confirmed semantic</small></li>
+                <li><code>strong</code> - bold the words (for the assignment title) <small style=color:#e8911d>confirmed semantic</small></li>
+
+
+
+              </ol>
+            </details>
+            <li>upload the index.html to the github and post URL</li>
+          </ol>
+          <footer>Image source:https://www.educba.com/html5-semantic-elements/<footer>
+        </main>
+      </section>
+
+  <header>
+    <a name= "Goalslink">
+    <h1><strong>Goals</strong></h1></a>
+  </header>
+
+          <h2>goal next week</h2>
+          <p>learn how to use the real tags for nav, canvas, etc. This assignment only has the text and random picture. Hopefully I can be better next week with making it look prettier</p>
+          <h2>goal this month</h2>
+          <p>keep up with class and make sure to set aside enough time for this, this week spent around 4 hours but am still very lost.....</p>
+
+      </hgroup>
+
+
+    <footer><small>this is random notes for the first week of class from Yuting Lin on 10/10</small></footer>
+  </body>
+
+  </html>
