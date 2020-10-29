@@ -1,0 +1,33 @@
+
+  /* main heading */
+.maintitle {
+    font-size: 42px;
+    text-align: center;
+    font-family: "Arial", Gadget, sans-serif;
+    color: #0671B7;
+    background-color: #C8E7F5;
+  }
+
+.secondmaintitle {
+  font-size: 24px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: #F8B7CD;
+  background-color: #67A3D9;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: left;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #0671B7;
+
+}
+
+h4 {
+  font-size: 16px;
+  text-align: left;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #F8B7CD;
+
+}
