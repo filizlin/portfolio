@@ -6,7 +6,7 @@
   <title>Portfolio</title>
 
   <style media="screen">
-  /* main heading */
+    /* main heading */
     h1 {
       font-size: 42px;
       text-align: center;
@@ -21,7 +21,8 @@
       font-family: Arial, Helvetica, sans-serif;
       color: #0F4C75;
     }
-/* box around each week */
+
+    /* box around each week */
     .weekbox {
       font-size: 20px;
       text-align: center;
@@ -31,18 +32,19 @@
       border-color: #BBE1FA;
       border-radius: 10px;
       margin-top: 10px;
-  margin-right: 50px;
-  margin-left: 50px;
+      margin-right: 50px;
+      margin-left: 50px;
 
     }
-/* center all images */
+
+    /* center all images */
     img {
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
 
-/* make image bigger when navigate */
+    /* make image bigger when navigate */
     .image:hover {
       transform: scale(1.2);
     }
@@ -53,31 +55,47 @@
 
     }
 
+    li {
+      float: left;
+      display: block;
+      padding: 10px;
+      background-color: #BBE1FA;
+      font-family: "Lucida Console", Courier, monospace;
+    }
+
+    li a:hover {
+      background-color: #3282B8;
+      color: white;
+    }
+    }
   </style>
 </head>
 
 <body>
   <h1>HTML 110B Coursework</h1>
 
-  <img src="./image/Portfolio-cover.png" alt="" width="480" height="270">
-  <main>
     <h2 class="center">Weekly Assignments, Projects, and/or Notes</h2>
-
+<main>
     <nav>
-      <ul>
-        <li><a href="#Week1link">Week1</a></li>
-        <li><a href="#Week2link">Week2</a></li>
-        <li><a href="#Week3link">Week3</a></li>
-        <li><a href="#Week4link">Week4</a></li>
-        <li><a href="#Week5link">Week5</a></li>
-        <li><a href="#Week6link">Week6</a></li>
-        <li><a href="#Week7link">Week7</a></li>
-        <li><a href="#Week8link">Week8</a></li>
-        <li><a href="#Week9link">Week9</a></li>
-        <li><a href="#Week10link">Week10</a></li>
+      <ul class="navigation">
+        <li class="navigationitem"><a href="#Week1link">Week1</a></li>
+        <li class="navigationitem"><a href="#Week2link">Week2</a></li>
+        <li class="navigationitem"><a href="#Week3link">Week3</a></li>
+        <li class="navigationitem"><a href="#Week4link">Week4</a></li>
+        <li class="navigationitem"><a href="#Week5link">Week5</a></li>
+        <li class="navigationitem"><a href="#Week6link">Week6</a></li>
+        <li class="navigationitem"><a href="#Week7link">Week7</a></li>
+        <li class="navigationitem"><a href="#Week8link">Week8</a></li>
+        <li class="navigationitem"><a href="#Week9link">Week9</a></li>
+        <li class="navigationitem"><a href="#Week10link">Week10</a></li>
       </ul>
     </nav>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
     <p>The following images works as links to the weekly assignment or project</p>
+    <p>&nbsp;</p>
+
     <article class="weekbox">
       <h3><a id="Week1link">Week 1 Assignment</a></h3>
       <a href="./week1-material.html" target="_blank">
@@ -88,7 +106,7 @@
     <article class="weekbox">
       <h3><a id="Week2link">Week 2 Assignment</a></h3>
       <a href="./week2-material.html" target="_blank">
-        <img src="./image/Week2-banner.png" alt="Week 2 assignments" width="600" height="150">
+        <img class="image" src="./image/Week2-banner.png" alt="Week 2 assignments" width="600" height="150">
       </a>
       <p>&nbsp;</p>
     </article>
