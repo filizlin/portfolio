@@ -6,6 +6,8 @@
     font-family: "Arial", Gadget, sans-serif;
     color: #0671B7;
     background-color: #C8E7F5;
+    border: 5px double #F8B7CD;
+    border-color: #F8B7CD;
   }
 
 .secondmaintitle {
@@ -29,5 +31,28 @@ h4 {
   text-align: left;
   font-family: Tahoma, Geneva, sans-serif;
   color: #F8B7CD;
+
+}
+
+footer {
+  text-align: right;
+}
+
+nav {
+  float: left;
+  display: block;
+  padding: 10px;
+  background-color: #BBE1FA;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+nav a:hover {
+  background-color: #0671B7;
+  color: white;
+}
+
+li a:hover {
+  background-color: #F6D2E0;
+  color: white;
 
 }
