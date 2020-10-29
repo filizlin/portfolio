@@ -1,107 +1,157 @@
 <!DOCTYPE html>
-  <html lang="en" dir="ltr">
+<html lang="en" dir="ltr">
 
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
 
-  <body>
-    <h1>HTML 110B Coursework</h1>
+  <style media="screen">
+  /* main heading */
+    h1 {
+      font-size: 42px;
+      text-align: center;
+      font-family: "Arial Black", Gadget, sans-serif;
+      color: #2C003E;
+      background-color: #D2FAFB;
+    }
 
-    <img src="./image/Portfolio-cover.png" alt="" width="480" height="270">
-    <main>
-      <h2>Weekly Assignments, Projects, and/or Notes</h2>
+    h2 {
+      font-size: 28px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #0F4C75;
+    }
+/* box around each week */
+    .weekbox {
+      font-size: 20px;
+      text-align: center;
+      font-family: "Lucida Console", Courier, monospace;
+      color: #3282B8;
+      border: 3px outset #0F4C75;
+      border-color: #BBE1FA;
+      border-radius: 10px;
+      margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
 
-      <nav>
-        <ul>
-          <li><a href="#Week1link">Week1</a></li>
-          <li><a href="#Week2link">Week2</a></li>
-          <li><a href="#Week3link">Week3</a></li>
-          <li><a href="#Week4link">Week4</a></li>
-          <li><a href="#Week5link">Week5</a></li>
-          <li><a href="#Week6link">Week6</a></li>
-          <li><a href="#Week7link">Week7</a></li>
-          <li><a href="#Week8link">Week8</a></li>
-          <li><a href="#Week9link">Week9</a></li>
-          <li><a href="#Week10link">Week10</a></li>
-        </ul>
-      </nav>
-<p>The following images works as links to the weekly assignment or project</p>
-<article class="">
-  <h3><a id="Week1link">Week 1 Assignment</a></h3>
-  <a href="./week1-material.html" target="_blank">
-    <img src="./image/Week1-banner.png" alt="Week 1 assignments" width="600" height="150">
-  </a>
-  <p>&nbsp;</p>
-</article>
-    <article class="">
+    }
+/* center all images */
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+/* make image bigger when navigate */
+    .image:hover {
+      transform: scale(1.2);
+    }
+
+    /*footer*/
+    footer {
+      text-align: right;
+
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>HTML 110B Coursework</h1>
+
+  <img src="./image/Portfolio-cover.png" alt="" width="480" height="270">
+  <main>
+    <h2 class="center">Weekly Assignments, Projects, and/or Notes</h2>
+
+    <nav>
+      <ul>
+        <li><a href="#Week1link">Week1</a></li>
+        <li><a href="#Week2link">Week2</a></li>
+        <li><a href="#Week3link">Week3</a></li>
+        <li><a href="#Week4link">Week4</a></li>
+        <li><a href="#Week5link">Week5</a></li>
+        <li><a href="#Week6link">Week6</a></li>
+        <li><a href="#Week7link">Week7</a></li>
+        <li><a href="#Week8link">Week8</a></li>
+        <li><a href="#Week9link">Week9</a></li>
+        <li><a href="#Week10link">Week10</a></li>
+      </ul>
+    </nav>
+    <p>The following images works as links to the weekly assignment or project</p>
+    <article class="weekbox">
+      <h3><a id="Week1link">Week 1 Assignment</a></h3>
+      <a href="./week1-material.html" target="_blank">
+        <img class="image" src="./image/Week1-banner.png" alt="Week 1 assignments" width="600" height="150">
+      </a>
+      <p>&nbsp;</p>
+    </article>
+    <article class="weekbox">
       <h3><a id="Week2link">Week 2 Assignment</a></h3>
       <a href="./week2-material.html" target="_blank">
         <img src="./image/Week2-banner.png" alt="Week 2 assignments" width="600" height="150">
       </a>
       <p>&nbsp;</p>
     </article>
-      <article class="">
-        <h3><a id="Week3link">Assignments and/or Projects for Week 3</a></h3>
-        <a href="./week3-material.html" target="_blank">
-          <img src="./image/Week3-banner.png" alt="Week 3 assignments" width="600" height="150">
-        </a>
-        <p>&nbsp;</p>
-      </article>
-      <article class="">
-        <h3><a id="Week4link">Assignments and/or Projects for Week 4</a></h3>
-        <a href="./week4-material.html" target="_blank">
-          <img src="./image/Week4-banner.png" alt="Week 4 assignments" width="600" height="150">
-        </a>
-        <p>&nbsp;</p>
-      </article>
-      <article class="">
-        <h3><a id="Week5link">Assignments and/or Projects for Week 5</a></h3>
-        <a href="./week5-material.html" target="_blank">
-          <img src="./image/Week5-banner.png" alt="Week 5 assignments" width="600" height="150">
-        </a>
-        <p>&nbsp;</p>
-      </article>
-    <article class="">
-      <h3><a id="Week6link">Assignments and/or Projects for Week 6</a></h3>
-      <a href="./week6-material.html" target="_blank">
-        <img src="./image/Week6-banner.png" alt="Week 6 assignments" width="600" height="150">
+    <article class="weekbox">
+      <h3><a id="Week3link">Week 3 Notes</a></h3>
+      <a href="./week3-material.html" target="_blank">
+        <img class="image" src="./image/Week3-banner.png" alt="Week 3 assignments" width="600" height="150">
       </a>
       <p>&nbsp;</p>
     </article>
-      <article class="">
-        <h3><a id="Week7link">Assignments and/or Projects for Week 7</a></h3>
-        <a href="./week7-material.html" target="_blank">
-          <img src="./image/Week7-banner.png" alt="Week 7 assignments" width="600" height="150">
-        </a>
-        <p>&nbsp;</p>
-      </article>
-      <article class="">
-        <h3><a id="Week8link">Assignments and/or Projects for Week 8</a></h3>
-        <a href="./week8-material.html" target="_blank">
-          <img src="./image/Week8-banner.png" alt="Week 8 assignments" width="600" height="150">
-        </a>
-        <p>&nbsp;</p>
-      </article>
-      <article class="">
-        <h3><a id="Week9link">Assignments and/or Projects for Week 9</a></h3>
-        <a href="./week9-material.html" target="_blank">
-          <img src="./image/Week9-banner.png" alt="Week 9 assignments" width="600" height="150">
-        </a>
-        <p>&nbsp;</p>
-      </article>
-      <article class="">
-        <h3><a id="Week10link">Assignments and/or Projects for Week 10</a></h3>
-        <a href="./week10-material.html" target="_blank">
-          <img src="./image/Week10-banner.png" alt="Week 10 assignments" width="600" height="150">
-        </a>
-        <p>&nbsp;</p>
-      </article>
+    <article class="weekbox">
+      <h3><a id="Week4link">Assignments and/or Projects for Week 4</a></h3>
+      <a href="./week4-material.html" target="_blank">
+        <img class="image" src="./image/Week4-banner.png" alt="Week 4 assignments" width="600" height="150">
+      </a>
+      <p>&nbsp;</p>
+    </article>
+    <article class="weekbox">
+      <h3><a id="Week5link">Assignments and/or Projects for Week 5</a></h3>
+      <a href="./week5-material.html" target="_blank">
+        <img class="image" src="./image/Week5-banner.png" alt="Week 5 assignments" width="600" height="150">
+      </a>
+      <p>&nbsp;</p>
+    </article>
+    <article class="weekbox">
+      <h3><a id="Week6link">Assignments and/or Projects for Week 6</a></h3>
+      <a href="./week6-material.html" target="_blank">
+        <img class="image" src="./image/Week6-banner.png" alt="Week 6 assignments" width="600" height="150">
+      </a>
+      <p>&nbsp;</p>
+    </article>
+    <article class="weekbox">
+      <h3><a id="Week7link">Assignments and/or Projects for Week 7</a></h3>
+      <a href="./week7-material.html" target="_blank">
+        <img class="image" src="./image/Week7-banner.png" alt="Week 7 assignments" width="600" height="150">
+      </a>
+      <p>&nbsp;</p>
+    </article>
+    <article class="weekbox">
+      <h3><a id="Week8link">Assignments and/or Projects for Week 8</a></h3>
+      <a href="./week8-material.html" target="_blank">
+        <img class="image" src="./image/Week8-banner.png" alt="Week 8 assignments" width="600" height="150">
+      </a>
+      <p>&nbsp;</p>
+    </article>
+    <article class="weekbox">
+      <h3><a id="Week9link">Assignments and/or Projects for Week 9</a></h3>
+      <a href="./week9-material.html" target="_blank">
+        <img class="image" src="./image/Week9-banner.png" alt="Week 9 assignments" width="600" height="150">
+      </a>
+      <p>&nbsp;</p>
+    </article>
+    <article class="weekbox">
+      <h3><a id="Week10link">Assignments and/or Projects for Week 10</a></h3>
+      <a href="./week10-material.html" target="_blank">
+        <img class="image" src="./image/Week10-banner.png" alt="Week 10 assignments" width="600" height="150">
+      </a>
+      <p>&nbsp;</p>
+    </article>
 
-      <footer>Some links contain dummy contents, the pages will be updated as the semester proceeds</footer>
-    </main>
+    <footer>Some links contain dummy contents, the pages will be updated as the semester proceeds</footer>
+  </main>
 
-  </body>
+</body>
 
-  </html>
+</html>
