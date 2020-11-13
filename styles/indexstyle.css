@@ -1,63 +1,80 @@
+/* main heading */
+h1 {
+  font-size: 42px;
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #2C003E;
+  background-color: #D2FAFB;
+}
 
-  /* main heading */
-  h1 {
-    font-size: 42px;
-    text-align: center;
-    font-family: "Arial Black", Gadget, sans-serif;
-    color: #2C003E;
-    background-color: #D2FAFB;
-  }
+h2 {
+  font-size: 28px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0F4C75;
+}
 
-  h2 {
-    font-size: 28px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #0F4C75;
-  }
+h3 {
+  font-family: 'Great Vibes', cursive;
+  color: #3282B8;
+  font-size: 20px;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
 
-  /* box around each week */
-  .weekbox {
-    font-size: 20px;
-    text-align: center;
-    font-family: "Lucida Console", Courier, monospace;
-    color: #3282B8;
-    border: 3px outset #0F4C75;
-    border-color: #BBE1FA;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-right: 50px;
-    margin-left: 50px;
+/* box around each week */
+.weekbox {
+  text-align: center;
+  border: 3px outset #0F4C75;
+  border-color: #BBE1FA;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 180px;
+}
 
-  }
+.weekbox {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  /* center all images */
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+/* center all images */
+img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 0px;
+  text-align: center;
+}
 
-  /* make image bigger when navigate */
-  .image:hover {
-    transform: scale(1.2);
-  }
+/* make image bigger when navigate */
+.image:hover {
+  transform: scale(1.2);
+}
 
-  /*footer*/
-  footer {
-    text-align: right;
+/*footer*/
+footer {
+  text-align: right;
+}
 
-  }
+li {
+  float: left;
+  display: block;
+  align-content: center;
+  padding: 10px;
+  background-color: #BBE1FA;
+  font-family: "Lucida Console", Courier, monospace;
+}
 
-  li {
-    float: left;
-    display: block;
-    padding: 10px;
-    background-color: #BBE1FA;
-    font-family: "Lucida Console", Courier, monospace;
-  }
-
-  li a:hover {
-    background-color: #3282B8;
-    color: white;
-  }
-  }
+li a:hover {
+  background-color: #3282B8;
+  color: white;
+}
+}
