@@ -1,0 +1,73 @@
+h1 {
+  font-size: 42px;
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #2C003E;
+  background-color: #D2FAFB;
+}
+
+form {
+    display: inline-block;
+    margin: 10px;
+}
+
+label, legend {
+  color:  #0F4C75;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%
+}
+
+input, select, button {
+  width: 240px;
+  margin:0px;
+  box-sizing: border-box;
+  border-radius: 8px;;
+  border-color: #F8B7CD;
+  background: #BBE1FA;
+}
+
+textarea {
+  margin:0px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border-color: #F8B7CD;
+  background: #BBE1FA;
+}
+
+input:focus {
+  background-color: #D2FAFB;
+  outline: 2px solid #2C003E;
+}
+
+textarea:focus {
+  background-color: #D2FAFB;
+  outline: 2px solid #2C003E;
+}
+
+input[type=submit]:active {
+  outline: 2px solid #2C003E;
+}
+
+input:required {
+  border: 1px solid red;
+  background: #F8B7CD;
+}
+
+input[type=radio] {
+  width: inherit;
+  margin-left: 40px;
+}
+
+input[type=checkbox] {
+  width: inherit;
+  margin-left: 40px;
+
+}
+
+fieldset {
+  border-color: #F8B7CD;
+  background: #BBE1FA;
+}

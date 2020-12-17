@@ -136,3 +136,10 @@ nav ul li a:hover {
   color: white;
   transition: all 0.25s ease-out;
 }
+
+video {
+  height: 300px;
+  width: 450px;
+  autoplay;
+  controls;
+}

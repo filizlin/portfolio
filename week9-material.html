@@ -1,16 +1,84 @@
 <!DOCTYPE html>
-  <html lang="en" dir="ltr">
+<html lang="en" dir="ltr">
 
-  <head>
-    <meta charset="utf-8">
-    <title>Week 9</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Week 9</title>
 
-  <body>
-    <article class="">
-    The material will be added later
-    </article>
-<footer>This is a dummy page created by Yuting Lin on 10/22</footer>
-  </body>
+  <link rel="stylesheet" type="text/css" href="./styles/formstyles.css">
 
-  </html>
+</head>
+
+<body>
+  <h1>Course Survey</h1>
+  <form class="" action="" method="get" name="general-survey">
+
+    <label for="class-name" Autofocus>Enter the class that you are taking:
+      <input type="text" name="class-name" value="" required>
+    </label>
+    <p>&nbsp;</p>
+    <label for="school-name">Enter the name of the Institution
+      <input type="text" name="school-name" value="" required>
+    </label>
+    <p>&nbsp;</p>
+    <label for="reasons-to-take-course">Why do you choose to take this class?</label>
+    <textarea name="reasons-to-take-course" rows="10" cols="50"></textarea>
+    <p>&nbsp;</p>
+    <label for="reasons-to-take-course">Why do you choose this Institution?</label>
+    <textarea name="reasons-to-take-course" rows="10" cols="50"></textarea>
+    <p>&nbsp;</p>
+    <label for="reasons-to-take-course">Which term are you taking the class in?</label>
+    <select name="term">
+      <option value="Spring-2020">Spring 2020</option>
+      <option value="Summer-2020">Summer 2020</option>
+      <option value="Fall-2020">Fall 2020</option>
+    </select>
+    <p>&nbsp;</p>
+    <fieldset>
+      <legend>Which Instructor did you take the course with?</legend>
+
+      <input type="radio" name="instructor" value="MrA">
+      <label for="instructor">Mr. A  </label>
+
+        <input type="radio" name="instructor" value="MrsB">
+      <label for="instructor">Mrs. B  </label>
+
+        <input type="radio" name="instructor" value="MissC">
+      <label for="instructor">Miss. C  </label>
+    </fieldset>
+    <p>&nbsp;</p>
+    <fieldset>
+      <legend>How did you hear about us?</legend>
+      <input type="checkbox" name="reference[]" value="email">
+      <label for="reference[]">email  </label>
+
+        <input type="checkbox" name="reference[]" value="reference from alumni">
+      <label for="reference[]">reference from alumni  </label>
+
+        <input type="checkbox" name="reference[]" value="website">
+      <label for="reference[]">website  </label>
+
+        <input type="checkbox" name="reference[]" value="campus visit">
+      <label for="reference[]">campus visit  </label>
+
+        <input type="checkbox" name="reference[]" value="other">
+      <label for="reference[]">other  </label>
+    </fieldset>
+    <p>&nbsp;</p>
+
+
+    <label for="">Degree of Satisfaction:      1<label>
+      <input type="range" name="degree-of-satisfaction" min="1" max="10">
+      <label for="">10</label>
+
+    <p>&nbsp;</p>
+    <label for="">Date of of completing the survey: </label>
+      <input type="date" name="date-of-survey">
+      <p>&nbsp;</p>
+      <input type="submit" name="submit" value="send">
+
+  </form>
+</body>
+</body>
+
+</html>
