@@ -37,7 +37,7 @@ h3::first-letter {
 h3:hover {
   font-size: 2rem;
   color: #2C003E;
-  transition-property: font-size color;
+  transition-property: font-size, color;
   transition-duration: 0.5s;
 }
 
@@ -92,7 +92,7 @@ img {
 /* make image bigger when navigate with transitions */
 .image:hover {
   transform: scale(1.1);
-  transition-property: width height ;
+  transition-property: width, height;
   transition-duration: 0.25s;
 
 
@@ -106,7 +106,6 @@ footer {
 /* Navigation bar on top */
 nav ul {
   display:flex;
-  padding-left: auto;
   align-content: center;
   justify-content: center;
 }
@@ -140,6 +139,6 @@ nav ul li a:hover {
 video {
   height: 300px;
   width: 450px;
-  autoplay;
-  controls;
+  display: block;
+  align-self: center;
 }
