@@ -6,7 +6,7 @@
     font-size: 3rem;
     text-align: center;
     font-family: "Arial", Gadget, sans-serif;
-    color: #0671B7;
+    color: #0667A7;
     background-color: #C8E7F5;
     border: 5px double #F8B7CD;
     border-color: #F8B7CD;
@@ -17,7 +17,7 @@
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   color: #F8B7CD;
-  background-color: #67A3D9;
+  background-color: #215583;
 }
 
 h3 {
@@ -32,7 +32,7 @@ h4 {
   font-size: 1.2rem;
   text-align: left;
   font-family: Tahoma, Geneva, sans-serif;
-  color: #F8B7CD;
+  color: #E31657;
 
 }
 
@@ -50,6 +50,7 @@ nav {
   padding: 10px;
   background-color: #BBE1FA;
   font-family: "Lucida Console", Courier, monospace;
+  font-size: 20px;
 }
 
 nav a:hover {
