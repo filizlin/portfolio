@@ -71,3 +71,7 @@ fieldset {
   border-color: #F8B7CD;
   background: #BBE1FA;
 }
+
+.row {
+  padding: 20px 10px;
+}

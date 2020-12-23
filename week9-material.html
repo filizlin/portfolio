@@ -12,69 +12,93 @@
 <body>
   <h1>Course Survey</h1>
   <form class="" method="get" name="general-survey">
+    <div class="row">
+      <label for="class-name" Autofocus>Enter the class that you are taking:
+        <input type="text" name="class-name" value="class-name" id="class-name" required>
+      </label>
+    </div>
 
-    <label for="class-name" Autofocus>Enter the class that you are taking:
-      <input type="text" name="class-name" value="class-name" id="class-name" required>
-    </label>
-    <p>&nbsp;</p>
-    <label for="school-name">Enter the name of the Institution
-      <input type="text" name="school-name" value="school-name" id="school-name" required>
-    </label>
-    <p>&nbsp;</p>
-    <label for="reasons-to-take-course">Why do you choose to take this class?</label>
-    <textarea name="reasons-to-take-course" id="reasons-to-take-course" rows="10" cols="50"></textarea>
-    <p>&nbsp;</p>
-    <label for="reasons-to-choose-institution">Why do you choose this Institution?</label>
-    <textarea name="reasons-to-choose-institution" id="reasons-to-choose-institution" rows="10" cols="50"></textarea>
-    <p>&nbsp;</p>
-    <label for="term">Which term are you taking the class in?</label>
-    <select name="term" id="term">
-      <option value="Spring-2020">Spring 2020</option>
-      <option value="Summer-2020">Summer 2020</option>
-      <option value="Fall-2020">Fall 2020</option>
-    </select>
-    <p>&nbsp;</p>
-    <fieldset>
-      <legend>Which Instructor did you take the course with?</legend>
+    <div class="row">
+      <label for="school-name">Enter the name of the Institution
+        <input type="text" name="school-name" value="school-name" id="school-name" required>
+      </label>
+    </div>
 
-      <input type="radio" name="instructor" value="MrA" id="instructor1">
-      <label for="instructor1" id="MrA">Mr. A  </label>
+    <div class="row">
+      <label for="reasons-to-take-course">Why do you choose to take this class?</label>
+      <textarea name="reasons-to-take-course" id="reasons-to-take-course" rows="10" cols="50"></textarea>
 
-        <input type="radio" name="instructor" value="MrsB" id="instructor2">
-      <label for="instructor2" id="MrsB">Mrs. B  </label>
+    </div>
 
-        <input type="radio" name="instructor" value="MissC" id="instructor3">
-      <label for="instructor3" id="MissC">Miss. C  </label>
-    </fieldset>
-    <p>&nbsp;</p>
-    <fieldset>
-      <legend>How did you hear about us?</legend>
-      <input type="checkbox" name="reference[]" value="email" id="reference[1]">
-      <label for="reference[1]" >email  </label>
+    <div class="row">
+      <label for="reasons-to-choose-institution">Why do you choose this Institution?</label>
+      <textarea name="reasons-to-choose-institution" id="reasons-to-choose-institution" rows="10" cols="50"></textarea>
 
-        <input type="checkbox" name="reference[]" value="reference from alumni" id="reference[2]">
-      <label for="reference[2]" >reference from alumni  </label>
+    </div>
 
-        <input type="checkbox" name="reference[]" value="website" id="reference[3]">
-      <label for="reference[3]" >website  </label>
+    <div class="row">
+      <label for="term">Which term are you taking the class in?</label>
+      <select name="term" id="term">
+        <option value="Spring-2020">Spring 2020</option>
+        <option value="Summer-2020">Summer 2020</option>
+        <option value="Fall-2020">Fall 2020</option>
+      </select>
 
-        <input type="checkbox" name="reference[]" value="campus visit" id="reference[4]">
-      <label for="reference[4]" >campus visit  </label>
+    </div>
 
-        <input type="checkbox" name="reference[]" value="other" id="reference[5]">
-      <label for="reference[5]" >other  </label>
-    </fieldset>
-    <p>&nbsp;</p>
+<div class="row">
+  <fieldset>
+    <legend>Which Instructor did you take the course with?</legend>
+
+    <input type="radio" name="instructor" value="MrA" id="instructor1">
+    <label for="instructor1" id="MrA">Mr. A </label>
+
+    <input type="radio" name="instructor" value="MrsB" id="instructor2">
+    <label for="instructor2" id="MrsB">Mrs. B </label>
+
+    <input type="radio" name="instructor" value="MissC" id="instructor3">
+    <label for="instructor3" id="MissC">Miss. C </label>
+  </fieldset>
+
+</div>
+
+<div class="row">
+  <fieldset class="row">
+    <legend>How did you hear about us?</legend>
+    <input type="checkbox" name="reference[]" value="email" id="reference[1]">
+    <label for="reference[1]">email </label>
+
+    <input type="checkbox" name="reference[]" value="reference from alumni" id="reference[2]">
+    <label for="reference[2]">reference from alumni </label>
+
+    <input type="checkbox" name="reference[]" value="website" id="reference[3]">
+    <label for="reference[3]">website </label>
+
+    <input type="checkbox" name="reference[]" value="campus visit" id="reference[4]">
+    <label for="reference[4]">campus visit </label>
+
+    <input type="checkbox" name="reference[]" value="other" id="reference[5]">
+    <label for="reference[5]">other </label>
+  </fieldset>
+</div>
 
 
-    <label for="degree-of-satisfaction">Degree of Satisfaction (left: unsatisfied; right: satisfied)</label>
+    <div class="row">
+      <label for="degree-of-satisfaction">Degree of Satisfaction (left: unsatisfied; right: satisfied)</label>
       <input type="range" name="degree-of-satisfaction" id="degree-of-satisfaction" min="1" max="10">
 
-    <p>&nbsp;</p>
-    <label for="date-of-survey">Date of of completing the survey: </label>
+    </div>
+
+    <div class="row">
+      <label for="date-of-survey">Date of of completing the survey: </label>
       <input type="date" name="date-of-survey" id="date-of-survey">
-      <p>&nbsp;</p>
+
+    </div>
+
+    <div class="row">
       <input type="submit" name="submit" value="send">
+
+    </div>
 
   </form>
 </body>
